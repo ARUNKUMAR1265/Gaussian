@@ -8,10 +8,13 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Using numpy and sys library to calculate Gaussian elimination.
+2. get the input from the user and a is an augmented matrix and x will store the solution of the system of linear equation.
+3. using for loop to fill the augmented matrix.
+4. a[i][i] is used to check the diagonal element is non zero element.
+5. using a[j][k] = a[j][k] - ratio*a[i][k] to convert the upper triangular matrix.
+6. x[i] = x[i]/a[i][k] this process work backward from  the bottom-most row to the top.
+7. using print function to print the output of the program.
 
 ## Program:
 ```
